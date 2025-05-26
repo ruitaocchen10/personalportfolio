@@ -1,0 +1,221 @@
+/* Password Protection Styles */
+.password-protection-section {
+    background-color: #F9F9F9;
+    min-height: calc(100vh - 160px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 2rem;
+  }
+  
+  .protection-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    max-width: 1000px;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .project-preview {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .preview-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    filter: blur(2px);
+  }
+  
+  .preview-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .lock-icon {
+    font-size: 3rem;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 1rem;
+    border-radius: 50%;
+    backdrop-filter: blur(10px);
+  }
+  
+  .protection-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .protection-content h1 {
+    margin: 0;
+    color: #2d3748;
+    font-size: 3rem;
+  }
+  
+  .protection-content h3 {
+    margin: 0;
+    color: #4a5568;
+    font-weight: 400;
+  }
+  
+  .protection-content p {
+    color: #4a5568;
+    line-height: 1.6;
+    margin: 0;
+  }
+  
+  .password-form {
+    background: white;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    border: 1px solid #e2e8f0;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: 600;
+    color: #2d3748;
+    margin-bottom: 0.5rem;
+  }
+  
+  #passwordInput {
+    width: 100%;
+    padding: 0.75rem;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    box-sizing: border-box;
+  }
+  
+  #passwordInput:focus {
+    outline: none;
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+  }
+  
+  #passwordInput.error {
+    border-color: #e53e3e;
+    box-shadow: 0 0 0 3px rgba(229, 62, 62, 0.1);
+  }
+  
+  #passwordInput.success {
+    border-color: #48bb78;
+    box-shadow: 0 0 0 3px rgba(72, 187, 120, 0.1);
+  }
+  
+  .error-message {
+    color: #e53e3e;
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+    min-height: 1.25rem;
+  }
+  
+  .access-button {
+    width: 100%;
+    padding: 0.875rem 1.5rem;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  
+  .access-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+  }
+  
+  .access-button:active {
+    transform: translateY(0);
+  }
+  
+  .project-info {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  
+  .info-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #4a5568;
+    font-size: 0.875rem;
+  }
+  
+  .info-item strong {
+    color: #2d3748;
+  }
+  
+  .back-link {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .back-link a {
+    color: #667eea;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+  }
+  
+  .back-link a:hover {
+    color: #5a67d8;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .protection-container {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+    
+    .password-protection-section {
+      padding: 2rem 1rem;
+    }
+    
+    .protection-content h1 {
+      font-size: 2rem;
+    }
+    
+    .password-form,
+    .project-info {
+      padding: 1.5rem;
+    }
+    
+    .info-item {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.25rem;
+    }
+  }

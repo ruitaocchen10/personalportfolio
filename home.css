@@ -203,3 +203,7 @@ body {
     transform: translateY(-2px);
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
 }
+
+.description {
+    font-size: 24px;
+}
