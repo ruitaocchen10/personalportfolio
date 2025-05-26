@@ -1,0 +1,25 @@
+.text-image-box {
+    display: flex;
+    gap: 4rem;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 6rem;
+    align-items: top;
+    background-color: #F9F9F9;
+}
+
+#skills {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 4rem 6rem;
+    align-items: top;
+    background-color: #F9F9F9;
+}
+
+#skills-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    gap: 2rem;
+}

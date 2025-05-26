@@ -1,0 +1,51 @@
+.contact-section {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    gap: 2rem;
+    padding: 4rem 8rem;
+    height: auto; 
+    flex: 1 0 0;
+    flex-direction: column;
+    background-color: #F9F9F9;
+}
+ 
+#contact-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+ }
+
+#name-email {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+}
+  
+.form-element {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: .25rem;
+    color: grey;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+  }
+  
+input, textarea {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    width: 100%;
+  }

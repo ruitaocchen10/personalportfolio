@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Kumbh Sans", "Ubuntu", sans-serif;
+}
+
+footer {
+    display: flex;
+    padding: 64px 96px 96px 96px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 64px;
+    align-self: stretch;
+    background-color: #F9F9F9;
+}
+
+.section {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    gap: 64px;
+    padding: 96px 96px 96px 96px;
+    height: auto; 
+    flex: 1 0 0;
+    background-color: #F9F9F9;
+}
+
+.vertsection {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-self: center;
+    gap: 2rem;
+    padding: 4rem 6rem;
+    flex-direction: column;
+    height: auto; 
+    flex: 1 0 0;
+    background-color: #F9F9F9;
+}
+
+#ft-btn-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+#ft-txt-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.ft-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .5rem;
+}
+
+button {
+    padding: 12px 48px;
+    background-color: black;
+    font-size: 16px;
+    border-radius: 30px;
+    color: white;
+}
+
+a {
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    text-decoration-color: black;
+}
+
+h1 {
+    line-height: 1.25;
+    font-size: 64px;
+    margin: 0;
+    font-weight: 600;
+}
+
+h2 {
+    line-height: 1.25;
+    font-size: 48px;
+    margin: 0;
+    font-weight: 600;
+}
+
+h3 {
+    line-height: 1.25;
+    font-size: 32px;
+    margin: 0;
+    font-weight: 600;
+}
+
+h4 {
+    line-height: 1.25;
+    font-size: 24px;
+    margin: 0;
+    font-weight: 600;
+}
+
+h5 {
+    line-height: 1.25;
+    font-size: 20px;
+    margin: 0;
+    font-weight: 600;
+}
+
+p {
+    line-height: 1.5;
+    margin: 0;
+    color: black;
+}
+
+.plarge {
+    font-size: 32px;
+}
+
+.pmedium {
+    font-size: 24px;
+}
+
+.pxmedium {
+    font-size: 20px;
+}
+
+.psmall {
+    font-size: 16px;
+}
+
+.pxsmall {
+    font-size: 12px;
+}
+
+ul {
+    margin: 0;
+    font-size: 24px;
+    list-style-type: circle;
+}
+
