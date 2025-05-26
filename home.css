@@ -79,22 +79,85 @@ body {
 }
 
 .card {
-    display: inline-block;
+    position: relative;
+    display: flex;
+    flex-direction: column;
     background-color: white;
     padding: 24px;
     border-radius: 30px;
     box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.05);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    z-index: 2;
+    position: relative;
 }
 
 .card-image {
     width: 100%;
     object-fit: contain;
+    margin-top: 16px;
 }
 
 .card:hover {
     transform: translateY(-6px) scale(1.02);
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12)
+}
+
+.card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 3;
+}
+
+.card:hover .card-overlay {
+    opacity: 1;
+}
+
+.tools {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.tool-tag {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 4px 12px;
+    border-radius: 16px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.view-case-study-btn {
+    background-color: white;
+    color: black;
+    padding: 12px 24px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    transition: transform 0.2s ease;
+}
+
+.view-case-study-btn:hover {
+    transform: scale(1.05);
 }
 
 #View-my-projects {
@@ -105,8 +168,38 @@ body {
     background-color: none;
 }
 
+#View-my-projects a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
 #Down-Arrow {
     justify-content: center;
     width: 2rem;
     height: auto;
+}
+
+.prominent-contact {
+    margin-top: 8px;
+}
+
+.primary-btn {
+    padding: 16px 32px;
+    background: black;
+    font-size: 16px;
+    border-radius: 30px;
+    color: white;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+.primary-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
 }
