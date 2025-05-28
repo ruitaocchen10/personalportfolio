@@ -1,309 +1,328 @@
-<head>
-  <link rel="stylesheet" href="global.css" />
-  <link rel="stylesheet" href="home.css" />
-  <link rel="stylesheet" href="projects.css" />
-  <link rel="stylesheet" href="contact.css" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Kumbh+Sans:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
-    rel="stylesheet"
-  />
-</head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Your Page Title</title>
+    <meta name="description" content="Your page description" />
 
-<body>
-  <!-- Navbar -->
-  <div class="navbar">
-    <a href="index.html"
-      ><img id="logo" src="images/Logo Dark.png" alt="Ruitao Chen Logo"
-    /></a>
-    <div id="nav-elements">
-      <a href="about.html">About</a>
-      <a href="#projects">Projects</a>
-    </div>
-    <div class="contact prominent-contact">
-      <a href="contact.html"><button class="primary-btn">Contact Me</button></a>
-    </div>
-  </div>
+    <!-- UPDATED CSS LINKS - Use these 3 files only -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Main styles -->
+    <link rel="stylesheet" href="pages.css" />
+    <!-- Page-specific -->
+    <link rel="stylesheet" href="projects.css" />
+    <!-- Project pages -->
 
-  <!-- Cover -->
-  <div class="project-cover">
-    <img class="cover-image" src="Images/ATTCoverMockup.png" alt="ATTCover" />
-    <div class="cover-text">
-      <h1>American Top Team</h1>
-      <div>
-        <h3>Overview</h3>
-        <p>Role</p>
+    <!-- JavaScript -->
+    <script src="navbar.js" defer></script>
+
+    <!-- Meta & Fonts (keep existing) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Kumbh+Sans:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Modern Glassmorphism Navbar -->
+    <nav class="navbar">
+      <a href="index.html" aria-label="Ruitao Chen Portfolio Home">
+        <img id="logo" src="images/Logo Dark.png" alt="Ruitao Chen Logo" />
+      </a>
+
+      <div id="nav-elements">
+        <a href="about.html">About</a>
+        <a href="#projects">Projects</a>
       </div>
-      <div>
-        <h3>Duration</h3>
-        <p>August 2024 - November 2024</p>
+
+      <div class="prominent-contact">
+        <a href="contact.html">
+          <button class="primary-btn" type="button">Contact Me</button>
+        </a>
       </div>
-      <div>
-        <h3>Role</h3>
-        <p>Contract UI/UX Designer</p>
-      </div>
-      <div>
-        <h3>Tools</h3>
-        <p>Figma</p>
+    </nav>
+
+    <!-- Cover -->
+    <div class="project-cover">
+      <img class="cover-image" src="images/ATTCoverMockup.png" alt="ATTCover" />
+      <div class="cover-text">
+        <h1>American Top Team</h1>
+        <div>
+          <h3>Overview</h3>
+          <p>Role</p>
+        </div>
+        <div>
+          <h3>Duration</h3>
+          <p>August 2024 - November 2024</p>
+        </div>
+        <div>
+          <h3>Role</h3>
+          <p>Contract UI/UX Designer</p>
+        </div>
+        <div>
+          <h3>Tools</h3>
+          <p>Figma</p>
+        </div>
       </div>
     </div>
-  </div>
 
-  <!-- Content -->
-  <div class="cs-horizontal">
-    <div class="horizontal-text">
-      <p>About American Top Team</p>
-      <h3>
-        American Top Team (ATT) is one of the most respected and successful
-        mixed martial arts (MMA) gyms in the world. ATT has a large network of
-        gyms primary in the southern USA.
-      </h3>
+    <!-- Content -->
+    <div class="cs-horizontal">
+      <div class="horizontal-text">
+        <p>About American Top Team</p>
+        <h3>
+          American Top Team (ATT) is one of the most respected and successful
+          mixed martial arts (MMA) gyms in the world. ATT has a large network of
+          gyms primary in the southern USA.
+        </h3>
+      </div>
+      <img class="proj-image" src="images/ATT.png" alt="ATTLogo" />
     </div>
-    <img class="proj-image" src="Images/ATT.png" alt="ATTLogo" />
-  </div>
 
-  <div class="section">
-    <div class="prompts">
+    <div class="section">
+      <div class="prompts">
+        <p>The Prompt</p>
+        <h3>
+          Update the current mobile app to add the following features to allow:
+        </h3>
+        <ul class="bullet-list">
+          <li>
+            Members to track their martial arts progression (belt, sparring
+            notes, techniques).
+          </li>
+          <li>
+            Members to post workouts, training logs, and class notes to share
+            with coaches or friends.
+          </li>
+          <li>
+            Encouragement for members to attend classes and maintain their
+            memberships
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="vertsection">
       <p>The Prompt</p>
       <h3>
-        Update the current mobile app to add the following features to allow:
+        I ran informal interviews with 7 members of the gym ranging from
+        fighters, enthusiasts, coaches, and other staff members. Some of my main
+        takeaways were:
       </h3>
+      <div class="horizontal-list">
+        <div class="bordered-container">
+          Progress Tracking is Essential but Underdeveloped
+        </div>
+        <div class="bordered-container">
+          Class Scheduling Needs Real-Time Info
+        </div>
+        <div class="bordered-container">
+          Coaches Want Feedback Loops, Members Want More Coaching
+        </div>
+        <div class="bordered-container">Social + Community Features Matter</div>
+        <div class="bordered-container">User Types Have Different Needs</div>
+      </div>
+    </div>
+
+    <div class="vertsection">
+      <p>Wireframes</p>
+      <div class="horizontal-list">
+        <img class="screen" src="images/Home.png" alt="Home" />
+        <img class="screen" src="images/Comment.png" alt="Comment" />
+      </div>
+      <p class="description">
+        These screens are part of a feature that allows users to share and
+        engage with workout posts. The Home screen displays a feed of posts made
+        by members along with attended class posts, which includes logs of the
+        classes that have occurred. The Comment screen expands the post,
+        enabling users to view details and add their thoughts, fostering
+        community interaction and motivation among members.
+      </p>
+      <div class="horizontal-list">
+        <img class="screen" src="images/Post.png" alt="Post" />
+      </div>
+      <p class="description">
+        The Post screen allows members to log and share their training
+        experiences by selecting the workout type, data format (e.g., stats,
+        reflections), and adding a title, description, and optional media.
+      </p>
+      <div class="horizontal-list">
+        <img class="screen" src="images/Progress.png" alt="Progress" />
+        <img class="screen" src="images/Belt Progress Opened.png" alt="BPO" />
+        <img class="screen" src="images/Belt Progress Closed.png" alt="BPC" />
+        <img class="screen" src="images/Badges Earned.png" alt="Badges" />
+      </div>
       <ul class="bullet-list">
         <li>
-          Members to track their martial arts progression (belt, sparring notes,
-          techniques).
+          Badges Earned: Displays achievements like class attendance and
+          check-ins, with progress trackers for ongoing goals.
         </li>
         <li>
-          Members to post workouts, training logs, and class notes to share with
-          coaches or friends.
+          Belt Progress (Closed/Opened): Features an interactive calendar
+          highlighting upcoming promotion tests, with detailed event information
+          when expanded.
         </li>
         <li>
-          Encouragement for members to attend classes and maintain their
-          memberships
+          Progress Overview: Provides a snapshot of the user’s current belt
+          ranks alongside key badges.
         </li>
       </ul>
     </div>
-  </div>
 
-  <div class="vertsection">
-    <p>The Prompt</p>
-    <h3>
-      I ran informal interviews with 7 members of the gym ranging from fighters,
-      enthusiasts, coaches, and other staff members. Some of my main takeaways
-      were:
-    </h3>
-    <div class="horizontal-list">
-      <div class="bordered-container">
-        Progress Tracking is Essential but Underdeveloped
-      </div>
-      <div class="bordered-container">
-        Class Scheduling Needs Real-Time Info
-      </div>
-      <div class="bordered-container">
-        Coaches Want Feedback Loops, Members Want More Coaching
-      </div>
-      <div class="bordered-container">Social + Community Features Matter</div>
-      <div class="bordered-container">User Types Have Different Needs</div>
-    </div>
-  </div>
-
-  <div class="vertsection">
-    <p>Wireframes</p>
-    <div class="horizontal-list">
-      <img class="screen" src="Images/Home.png" alt="Home" />
-      <img class="screen" src="Images/Comment.png" alt="Comment" />
-    </div>
-    <p class="description">
-      These screens are part of a feature that allows users to share and engage
-      with workout posts. The Home screen displays a feed of posts made by
-      members along with attended class posts, which includes logs of the
-      classes that have occurred. The Comment screen expands the post, enabling
-      users to view details and add their thoughts, fostering community
-      interaction and motivation among members.
-    </p>
-    <div class="horizontal-list">
-      <img class="screen" src="Images/Post.png" alt="Post" />
-    </div>
-    <p class="description">
-      The Post screen allows members to log and share their training experiences
-      by selecting the workout type, data format (e.g., stats, reflections), and
-      adding a title, description, and optional media.
-    </p>
-    <div class="horizontal-list">
-      <img class="screen" src="Images/Progress.png" alt="Progress" />
-      <img class="screen" src="Images/Belt Progress Opened.png" alt="BPO" />
-      <img class="screen" src="Images/Belt Progress Closed.png" alt="BPC" />
-      <img class="screen" src="Images/Badges Earned.png" alt="Badges" />
-    </div>
-    <ul class="bullet-list">
-      <li>
-        Badges Earned: Displays achievements like class attendance and
-        check-ins, with progress trackers for ongoing goals.
-      </li>
-      <li>
-        Belt Progress (Closed/Opened): Features an interactive calendar
-        highlighting upcoming promotion tests, with detailed event information
-        when expanded.
-      </li>
-      <li>
-        Progress Overview: Provides a snapshot of the user’s current belt ranks
-        alongside key badges.
-      </li>
-    </ul>
-  </div>
-
-  <div class="vertsection">
-    <p>Round 1 of Testing</p>
-    <h3>Objective</h3>
-    <p class="description">
-      Validate feature desirability and identify usability issues before moving
-      into high-fidelity screens.
-    </p>
-    <h3>Participants</h3>
-    <p class="description">6 gym members, 2 gym coaches</p>
-    <h3>Method</h3>
-    <p class="description">Remote</p>
-    <h3>Tasks</h3>
-    <ul class="bullet-list">
-      <li>
-        Describe the information you see on the home screen, and (assuming they
-        can see it's a post) click the button to comment on the post
-      </li>
-      <li>Click the button you would use to create a post</li>
-      <li>
-        Navigate to the progress tab, and walk me through the information you're
-        seeing on the screen
-      </li>
-    </ul>
-  </div>
-
-  <div class="vertsection">
-    <p>1st Prototype</p>
-    <img
-      class="Prototype"
-      src="Images/ATTCoverMockup.png"
-      alt="ATTCoverMockup"
-    />
-  </div>
-
-  <div class="vertsection">
-    <p>Round 2 of Testing</p>
-    <h3>Objective</h3>
-    <p class="description">
-      Validate UI compatibility and identify any other issues
-    </p>
-    <h3>Participants</h3>
-    <p class="description">6 gym members, 2 gym coaches</p>
-    <h3>Method</h3>
-    <p class="description">Remote</p>
-    <h3>Tasks</h3>
-    <ul class="bullet-list">
-      <li>
-        Navigate to the home screen, create a post, and view all the elements in
-        the progress bar
-      </li>
-    </ul>
-    <h3>Client Requests</h3>
-    <ul class="bullet-list">
-      <li>
-        Describe the information you see on the home screen, and (assuming they
-        can see it's a post) click the button to comment on the post
-      </li>
-      <li>Click the button you would use to create a post</li>
-      <li>
-        Navigate to the progress tab, and walk me through the information you're
-        seeing on the screen
-      </li>
-    </ul>
-  </div>
-
-  <!-- Contact -->
-  <div class="contact-section">
-    <div id="contact-text">
-      <h1>Contact Me</h1>
-      <p>
-        Got a project, idea, or just want to say hello? Drop me a message below!
+    <div class="vertsection">
+      <p>Round 1 of Testing</p>
+      <h3>Objective</h3>
+      <p class="description">
+        Validate feature desirability and identify usability issues before
+        moving into high-fidelity screens.
       </p>
+      <h3>Participants</h3>
+      <p class="description">6 gym members, 2 gym coaches</p>
+      <h3>Method</h3>
+      <p class="description">Remote</p>
+      <h3>Tasks</h3>
+      <ul class="bullet-list">
+        <li>
+          Describe the information you see on the home screen, and (assuming
+          they can see it's a post) click the button to comment on the post
+        </li>
+        <li>Click the button you would use to create a post</li>
+        <li>
+          Navigate to the progress tab, and walk me through the information
+          you're seeing on the screen
+        </li>
+      </ul>
     </div>
 
-    <form action="https://formspree.io/f/your-form-id" method="POST">
-      <div id="name-email">
-        <div class="form-element">
-          <label for="name">Name</label>
-          <input type="text" id="name" name="name" required />
+    <div class="vertsection">
+      <p>1st Prototype</p>
+      <img
+        class="Prototype"
+        src="images/ATTCoverMockup.png"
+        alt="ATTCoverMockup"
+      />
+    </div>
+
+    <div class="vertsection">
+      <p>Round 2 of Testing</p>
+      <h3>Objective</h3>
+      <p class="description">
+        Validate UI compatibility and identify any other issues
+      </p>
+      <h3>Participants</h3>
+      <p class="description">6 gym members, 2 gym coaches</p>
+      <h3>Method</h3>
+      <p class="description">Remote</p>
+      <h3>Tasks</h3>
+      <ul class="bullet-list">
+        <li>
+          Navigate to the home screen, create a post, and view all the elements
+          in the progress bar
+        </li>
+      </ul>
+      <h3>Client Requests</h3>
+      <ul class="bullet-list">
+        <li>
+          Describe the information you see on the home screen, and (assuming
+          they can see it's a post) click the button to comment on the post
+        </li>
+        <li>Click the button you would use to create a post</li>
+        <li>
+          Navigate to the progress tab, and walk me through the information
+          you're seeing on the screen
+        </li>
+      </ul>
+    </div>
+
+    <!-- Contact -->
+    <div class="contact-section">
+      <div id="contact-text">
+        <h1>Contact Me</h1>
+        <p>
+          Got a project, idea, or just want to say hello? Drop me a message
+          below!
+        </p>
+      </div>
+
+      <form action="https://formspree.io/f/your-form-id" method="POST">
+        <div id="name-email">
+          <div class="form-element">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+
+          <div class="form-element">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="_replyto" required />
+          </div>
         </div>
 
         <div class="form-element">
-          <label for="email">Email</label>
-          <input type="email" id="email" name="_replyto" required />
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" required></textarea>
         </div>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+
+    <!-- Other Case Studies -->
+    <div class="other-case-studies">
+      <p>Other Case Studies</p>
+      <div class="case-studies-list">
+        <a href="KOMMA.html">
+          <img
+            class="case-studies-images"
+            src="images/KOMMACoverMockup.png"
+            alt="KOKMMACover"
+          />
+        </a>
+        <a href="SellMax.html">
+          <img
+            class="case-studies-images"
+            src="images/SellMaxCoverMockup.png"
+            alt="SellMaxCover"
+          />
+        </a>
+        <a href="Prommuni.html">
+          <img
+            class="case-studies-images"
+            src="images/PrommuniCoverMockup.png"
+            alt="PrommuniCover"
+          />
+        </a>
       </div>
+    </div>
 
-      <div class="form-element">
-        <label for="message">Message</label>
-        <textarea id="message" name="message" rows="6" required></textarea>
+    <!-- Footer -->
+    <footer>
+      <div id="ft-btn-section">
+        <a class="ft-btn" href="https://www.linkedin.com/in/ruitaocchen/">
+          <p>Linkedin</p>
+          <img
+            id="Up-Right-Arrow"
+            src="images/BsFillArrowUpRightCircleFill.svg"
+            alt="DownArrow"
+          />
+        </a>
+        <a class="ft-btn" href="resume.html">
+          <p>Resume</p>
+          <img
+            id="Up-Right-Arrow"
+            src="images/BsFillArrowUpRightCircleFill.svg"
+            alt="DownArrow"
+          />
+        </a>
       </div>
-
-      <button type="submit">Send Message</button>
-    </form>
-  </div>
-
-  <!-- Other Case Studies -->
-  <div class="other-case-studies">
-    <p>Other Case Studies</p>
-    <div class="case-studies-list">
-      <a href="KOMMA.html">
-        <img
-          class="case-studies-images"
-          src="Images/KOMMACoverMockup.png"
-          alt="KOKMMACover"
-        />
-      </a>
-      <a href="SellMax.html">
-        <img
-          class="case-studies-images"
-          src="Images/SellMaxCoverMockup.png"
-          alt="SellMaxCover"
-        />
-      </a>
-      <a href="Prommuni.html">
-        <img
-          class="case-studies-images"
-          src="Images/PrommuniCoverMockup.png"
-          alt="PrommuniCover"
-        />
-      </a>
-    </div>
-  </div>
-
-  <!-- Footer -->
-  <footer>
-    <div id="ft-btn-section">
-      <a class="ft-btn" href="https://www.linkedin.com/in/ruitaocchen/">
-        <p>Linkedin</p>
-        <img
-          id="Up-Right-Arrow"
-          src="Images/BsFillArrowUpRightCircleFill.svg"
-          alt="DownArrow"
-        />
-      </a>
-      <a class="ft-btn" href="resume.html">
-        <p>Resume</p>
-        <img
-          id="Up-Right-Arrow"
-          src="Images/BsFillArrowUpRightCircleFill.svg"
-          alt="DownArrow"
-        />
-      </a>
-    </div>
-    <div id="ft-txt-section">
-      <h3>Copyright 2024 Ruitao Chen. All Rights Reserved.</h3>
-      <p>
-        Can you solve a Rubik's Cube faster than me? Name all the US Presidents
-        in order? Juggle?
-      </p>
-    </div>
-  </footer>
-</body>
+      <div id="ft-txt-section">
+        <h3>Copyright 2024 Ruitao Chen. All Rights Reserved.</h3>
+        <p>
+          Can you solve a Rubik's Cube faster than me? Name all the US
+          Presidents in order? Juggle?
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

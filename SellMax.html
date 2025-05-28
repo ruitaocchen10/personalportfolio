@@ -1,238 +1,265 @@
-<head>
-  <link rel="stylesheet" href="global.css" />
-  <link rel="stylesheet" href="home.css" />
-  <link rel="stylesheet" href="projects.css" />
-  <link rel="stylesheet" href="contact.css" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Kumbh+Sans:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
-    rel="stylesheet"
-  />
-</head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Your Page Title</title>
+    <meta name="description" content="Your page description" />
 
-<body>
-  <!-- Navbar -->
-  <div class="navbar">
-    <a href="index.html"
-      ><img id="logo" src="images/Logo Dark.png" alt="Ruitao Chen Logo"
-    /></a>
-    <div id="nav-elements">
-      <a href="about.html">About</a>
-      <a href="#projects">Projects</a>
-    </div>
-    <div class="contact prominent-contact">
-      <a href="contact.html"><button class="primary-btn">Contact Me</button></a>
-    </div>
-  </div>
+    <!-- UPDATED CSS LINKS - Use these 3 files only -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Main styles -->
+    <link rel="stylesheet" href="pages.css" />
+    <!-- Page-specific -->
+    <link rel="stylesheet" href="projects.css" />
+    <!-- Project pages -->
 
-  <!-- Cover -->
-  <div class="project-cover">
-    <img
-      class="cover-image"
-      src="/Images/SellMaxCoverMockup.png"
-      alt="SellMaxCover"
+    <!-- JavaScript -->
+    <script src="navbar.js" defer></script>
+
+    <!-- Meta & Fonts (keep existing) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Kumbh+Sans:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
     />
-    <div class="cover-text">
-      <h1>SellMax</h1>
-      <div>
-        <h4>Overview</h4>
-        <p>Role</p>
+  </head>
+
+  <body>
+    <!-- Modern Glassmorphism Navbar -->
+    <nav class="navbar">
+      <a href="index.html" aria-label="Ruitao Chen Portfolio Home">
+        <img id="logo" src="images/Logo Dark.png" alt="Ruitao Chen Logo" />
+      </a>
+
+      <div id="nav-elements">
+        <a href="about.html">About</a>
+        <a href="#projects">Projects</a>
       </div>
-      <div>
-        <h4>Duration</h4>
-        <p>September 2023 - November 2023</p>
+
+      <div class="prominent-contact">
+        <a href="contact.html">
+          <button class="primary-btn" type="button">Contact Me</button>
+        </a>
       </div>
-      <div>
-        <h4>Role</h4>
-        <p>Freelance Design Consultant</p>
-      </div>
-      <div>
-        <h4>Tools</h4>
-        <p>Figma</p>
+    </nav>
+
+    <!-- Cover -->
+    <div class="project-cover">
+      <img
+        class="cover-image"
+        src="/images/SellMaxCoverMockup.png"
+        alt="SellMaxCover"
+      />
+      <div class="cover-text">
+        <h1>SellMax</h1>
+        <div>
+          <h4>Overview</h4>
+          <p>Role</p>
+        </div>
+        <div>
+          <h4>Duration</h4>
+          <p>September 2023 - November 2023</p>
+        </div>
+        <div>
+          <h4>Role</h4>
+          <p>Freelance Design Consultant</p>
+        </div>
+        <div>
+          <h4>Tools</h4>
+          <p>Figma</p>
+        </div>
       </div>
     </div>
-  </div>
 
-  <div class="section">
-    <div id="SMprompts">
-      <p>THE PROMPT</p>
-      <p class="plarge">
-        Redesign the SellMax car quote questionnaire to reduce user abandonment
-        rate.
-      </p>
-    </div>
-  </div>
-
-  <div class="vertsection">
-    <p>CONTEXT</p>
-    <h3>
-      I was provided with the three forms that had the highest user dropoff rate
-      by SellMax.
-    </h3>
-    <img class="Prototype" src="/Images/SMBattery.png" alt="SMBattery" />
-    <img class="Prototype" src="/Images/SMTitle.png" alt="SMTtitle" />
-    <img class="Prototype" src="/Images/SMForm.png" alt="SMForm" />
-  </div>
-
-  <div class="vertsection">
-    <p>USER RESEARCH</p>
-    <h3>
-      I asked 15 of my friends and family to take the form just to see some of
-      the frustrations they had. I collected some common points on the screens
-      SellMax provided as well as some issues with other screens.
-    </h3>
-    <div class="horizontal-list">
-      <div class="bordered-container">
-        "I had to read the battery condition and key fob question twice. I feel
-        like those things aren't that related."
-      </div>
-      <div class="bordered-container">
-        "I'm not gonna lie, I have no idea what a clean title is"
-      </div>
-      <div class="bordered-container">
-        "Why do I have to fill so much information out at the end?"
-      </div>
-      <div class="bordered-container">
-        "Not that this matters a whole lot, but it doesn't look that
-        professional
-      </div>
-      <div class="bordered-container">
-        "I kind of wish I could've got through it faster, but maybe thats just
-        me being lazy."
-      </div>
-    </div>
-  </div>
-
-  <div class="vertsection">
-    <p>SOLUTIONS</p>
-    <div class="SMcontainer">
-      <div class="SMcontainertext">
-        <h5>More Modern, Sleek UI</h5>
-        <p>
-          The original theme and layout we're serviceable, but not the most
-          clean and modern-looking which threw some of our users off. Some of
-          the spacing in the original form was inconsistent as well, which is
-          very unprofessional. With my new design, I updated the progress bar
-          and the spacing to make the interface more user friendly and
-          attractive.
+    <div class="section">
+      <div id="SMprompts">
+        <p>THE PROMPT</p>
+        <p class="plarge">
+          Redesign the SellMax car quote questionnaire to reduce user
+          abandonment rate.
         </p>
       </div>
-      <img class="SMImage1" src="/Images/VehicleTitle.png" alt="VehicleTitle" />
-    </div>
-    <div class="SMcontainer">
-      <div class="SMcontainertext">
-        <h5>Explanation for Clean Title</h5>
-        <p>
-          Some of the users were confused on what a clean title was. I added an
-          informational icon under the question which opens a text box that
-          explains all the potential options for the users.
-        </p>
-      </div>
-      <img class="SMImage1" src="/Images/VehicleTitle.png" alt="VehicleTitle" />
-    </div>
-    <div class="SMcontainer">
-      <div class="SMcontainertext">
-        <h5>Split Battery/Key Fob Question</h5>
-        <p>
-          The battery and key fob question was raising a bit of confusion with
-          the users. By splitting the question into 2 different screens, both
-          are much more clear and easy to understand.
-        </p>
-      </div>
-      <div id="batkeyimages">
-        <img class="card-image" src="/Images/Battery.png" alt="Battery" />
-        <img class="card-image" src="/Images/Key.png" alt="Key" />
-      </div>
-    </div>
-  </div>
-
-  <!-- Contact -->
-  <div class="contact-section">
-    <div id="contact-text">
-      <h1>Contact Me</h1>
-      <p>
-        Got a project, idea, or just want to say hello? Drop me a message below!
-      </p>
     </div>
 
-    <form action="https://formspree.io/f/your-form-id" method="POST">
-      <div id="name-email">
-        <div class="form-element">
-          <label for="name">Name</label>
-          <input type="text" id="name" name="name" required />
+    <div class="vertsection">
+      <p>CONTEXT</p>
+      <h3>
+        I was provided with the three forms that had the highest user dropoff
+        rate by SellMax.
+      </h3>
+      <img class="Prototype" src="/images/SMBattery.png" alt="SMBattery" />
+      <img class="Prototype" src="/images/SMTitle.png" alt="SMTtitle" />
+      <img class="Prototype" src="/images/SMForm.png" alt="SMForm" />
+    </div>
+
+    <div class="vertsection">
+      <p>USER RESEARCH</p>
+      <h3>
+        I asked 15 of my friends and family to take the form just to see some of
+        the frustrations they had. I collected some common points on the screens
+        SellMax provided as well as some issues with other screens.
+      </h3>
+      <div class="horizontal-list">
+        <div class="bordered-container">
+          "I had to read the battery condition and key fob question twice. I
+          feel like those things aren't that related."
+        </div>
+        <div class="bordered-container">
+          "I'm not gonna lie, I have no idea what a clean title is"
+        </div>
+        <div class="bordered-container">
+          "Why do I have to fill so much information out at the end?"
+        </div>
+        <div class="bordered-container">
+          "Not that this matters a whole lot, but it doesn't look that
+          professional
+        </div>
+        <div class="bordered-container">
+          "I kind of wish I could've got through it faster, but maybe thats just
+          me being lazy."
+        </div>
+      </div>
+    </div>
+
+    <div class="vertsection">
+      <p>SOLUTIONS</p>
+      <div class="SMcontainer">
+        <div class="SMcontainertext">
+          <h5>More Modern, Sleek UI</h5>
+          <p>
+            The original theme and layout we're serviceable, but not the most
+            clean and modern-looking which threw some of our users off. Some of
+            the spacing in the original form was inconsistent as well, which is
+            very unprofessional. With my new design, I updated the progress bar
+            and the spacing to make the interface more user friendly and
+            attractive.
+          </p>
+        </div>
+        <img
+          class="SMImage1"
+          src="/images/VehicleTitle.png"
+          alt="VehicleTitle"
+        />
+      </div>
+      <div class="SMcontainer">
+        <div class="SMcontainertext">
+          <h5>Explanation for Clean Title</h5>
+          <p>
+            Some of the users were confused on what a clean title was. I added
+            an informational icon under the question which opens a text box that
+            explains all the potential options for the users.
+          </p>
+        </div>
+        <img
+          class="SMImage1"
+          src="/images/VehicleTitle.png"
+          alt="VehicleTitle"
+        />
+      </div>
+      <div class="SMcontainer">
+        <div class="SMcontainertext">
+          <h5>Split Battery/Key Fob Question</h5>
+          <p>
+            The battery and key fob question was raising a bit of confusion with
+            the users. By splitting the question into 2 different screens, both
+            are much more clear and easy to understand.
+          </p>
+        </div>
+        <div id="batkeyimages">
+          <img class="card-image" src="/images/Battery.png" alt="Battery" />
+          <img class="card-image" src="/images/Key.png" alt="Key" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="contact-section">
+      <div id="contact-text">
+        <h1>Contact Me</h1>
+        <p>
+          Got a project, idea, or just want to say hello? Drop me a message
+          below!
+        </p>
+      </div>
+
+      <form action="https://formspree.io/f/your-form-id" method="POST">
+        <div id="name-email">
+          <div class="form-element">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+
+          <div class="form-element">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="_replyto" required />
+          </div>
         </div>
 
         <div class="form-element">
-          <label for="email">Email</label>
-          <input type="email" id="email" name="_replyto" required />
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" required></textarea>
         </div>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+
+    <!-- Other Case Studies -->
+    <div class="other-case-studies">
+      <p>Other Case Studies</p>
+      <div class="case-studies-list">
+        <a href="KOMMA.html">
+          <img
+            class="case-studies-images"
+            src="/images/KOMMACoverMockup.png"
+            alt="KOKMMACover"
+          />
+        </a>
+        <a href="ATT.html">
+          <img
+            class="case-studies-images"
+            src="/images/ATTCoverMockup.png"
+            alt="ATTCover"
+          />
+        </a>
+        <a href="Prommuni.html">
+          <img
+            class="case-studies-images"
+            src="/images/PrommuniCoverMockup.png"
+            alt="PrommuniCover"
+          />
+        </a>
       </div>
+    </div>
 
-      <div class="form-element">
-        <label for="message">Message</label>
-        <textarea id="message" name="message" rows="6" required></textarea>
+    <!-- Footer -->
+    <footer>
+      <div id="ft-btn-section">
+        <a class="ft-btn" href="https://www.linkedin.com/in/ruitaocchen/">
+          <p>Linkedin</p>
+          <img
+            id="Up-Right-Arrow"
+            src="images/BsFillArrowUpRightCircleFill.svg"
+            alt="DownArrow"
+          />
+        </a>
+        <a class="ft-btn" href="resume.html">
+          <p>Resume</p>
+          <img
+            id="Up-Right-Arrow"
+            src="images/BsFillArrowUpRightCircleFill.svg"
+            alt="DownArrow"
+          />
+        </a>
       </div>
-
-      <button type="submit">Send Message</button>
-    </form>
-  </div>
-
-  <!-- Other Case Studies -->
-  <div class="other-case-studies">
-    <p>Other Case Studies</p>
-    <div class="case-studies-list">
-      <a href="KOMMA.html">
-        <img
-          class="case-studies-images"
-          src="/Images/KOMMACoverMockup.png"
-          alt="KOKMMACover"
-        />
-      </a>
-      <a href="ATT.html">
-        <img
-          class="case-studies-images"
-          src="/Images/ATTCoverMockup.png"
-          alt="ATTCover"
-        />
-      </a>
-      <a href="Prommuni.html">
-        <img
-          class="case-studies-images"
-          src="/Images/PrommuniCoverMockup.png"
-          alt="PrommuniCover"
-        />
-      </a>
-    </div>
-  </div>
-
-  <!-- Footer -->
-  <footer>
-    <div id="ft-btn-section">
-      <a class="ft-btn" href="https://www.linkedin.com/in/ruitaocchen/">
-        <p>Linkedin</p>
-        <img
-          id="Up-Right-Arrow"
-          src="Images/BsFillArrowUpRightCircleFill.svg"
-          alt="DownArrow"
-        />
-      </a>
-      <a class="ft-btn" href="resume.html">
-        <p>Resume</p>
-        <img
-          id="Up-Right-Arrow"
-          src="Images/BsFillArrowUpRightCircleFill.svg"
-          alt="DownArrow"
-        />
-      </a>
-    </div>
-    <div id="ft-txt-section">
-      <h3>Copyright 2024 Ruitao Chen. All Rights Reserved.</h3>
-      <p>
-        Can you solve a Rubik's Cube faster than me? Name all the US Presidents
-        in order? Juggle?
-      </p>
-    </div>
-  </footer>
-</body>
+      <div id="ft-txt-section">
+        <h3>Copyright 2024 Ruitao Chen. All Rights Reserved.</h3>
+        <p>
+          Can you solve a Rubik's Cube faster than me? Name all the US
+          Presidents in order? Juggle?
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,654 +1,675 @@
-<head>
-  <link rel="stylesheet" href="global.css" />
-  <link rel="stylesheet" href="home.css" />
-  <link rel="stylesheet" href="projects.css" />
-  <link rel="stylesheet" href="KOMMA.css" />
-  <link rel="stylesheet" href="contact.css" />
-  <link rel="stylesheet" href="about.css" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Kumbh+Sans:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
-    rel="stylesheet"
-  />
-</head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Your Page Title</title>
+    <meta name="description" content="Your page description" />
 
-<body>
-  <!-- Navbar -->
-  <div class="navbar">
-    <a href="index.html"
-      ><img id="logo" src="images/Logo Dark.png" alt="Ruitao Chen Logo"
-    /></a>
-    <div id="nav-elements">
-      <a href="about.html">About</a>
-      <a href="#projects">Projects</a>
-    </div>
-    <div class="contact prominent-contact">
-      <a href="contact.html"><button class="primary-btn">Contact Me</button></a>
-    </div>
-  </div>
+    <!-- UPDATED CSS LINKS - Use these 3 files only -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Main styles -->
+    <link rel="stylesheet" href="pages.css" />
+    <!-- Page-specific -->
+    <link rel="stylesheet" href="projects.css" />
+    <!-- Project pages -->
 
-  <!-- Cover -->
-  <div class="project-cover">
-    <img
-      class="cover-image"
-      src="images/KOMMACoverMockup.png"
-      alt="KOMMACover"
+    <!-- JavaScript -->
+    <script src="navbar.js" defer></script>
+
+    <!-- Meta & Fonts (keep existing) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Kumbh+Sans:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
     />
-    <div class="cover-text">
-      <h1>KOMMA</h1>
-      <div>
-        <h4>Overview</h4>
-        <p>Role</p>
-      </div>
-      <div>
-        <h4>Duration</h4>
-        <p>January 2023 - Present</p>
-      </div>
-      <div>
-        <h4>Role</h4>
-        <p>Solo Started Project</p>
-      </div>
-      <div>
-        <h4>Tools</h4>
-        <p>Figma</p>
-      </div>
-    </div>
-  </div>
+  </head>
 
-  <!-- TEMPLATE 2: PROJECT CONTEXT/ABOUT SECTION -->
-  <div class="cs-horizontal">
-    <div class="horizontal-text">
-      <p>MIXED-MARTIAL ARTS FANS NEED A BETTER COMMUNITY</p>
-      <h3>
-        UFC fans want to play fantasy sports to showcase their knowledge of
-        fighters while competing with their friends. It adds excitement,
-        personal stakes, and monetary value in some cases.
-      </h3>
-    </div>
-    <img
-      class="proj-image"
-      src="images/KOMMATestimonials.png"
-      alt="KOMMA Testimonials"
-    />
-  </div>
+  <body>
+    <!-- Modern Glassmorphism Navbar -->
+    <nav class="navbar">
+      <a href="index.html" aria-label="Ruitao Chen Portfolio Home">
+        <img id="logo" src="images/Logo Dark.png" alt="Ruitao Chen Logo" />
+      </a>
 
-  <!-- TEMPLATE 13: SIMPLE TITLE-TEXT-IMAGE SECTION -->
-  <div class="vertsection">
-    <p>USER INTERVIEWS</p>
-    <h3>What do the fans think?</h3>
-    <p class="description">
-      I conducted 5 personal user interviews with MMA and other sports fans
-      between the ages of 18-30 to find out what they were lacking in the UFC
-      fan community. Here's what I found:
-    </p>
-    <img
-      class="Prototype"
-      src="images/KOMMATestimonials.png"
-      alt="Descriptive alt text for your image"
-    />
-  </div>
+      <div id="nav-elements">
+        <a href="about.html">About</a>
+        <a href="#projects">Projects</a>
+      </div>
 
-  <!-- Enhanced Understanding the Fans Section -->
-  <div class="vertsection">
-    <p>Gameplay</p>
-    <h3>Understanding the fans</h3>
+      <div class="prominent-contact">
+        <a href="contact.html">
+          <button class="primary-btn" type="button">Contact Me</button>
+        </a>
+      </div>
+    </nav>
 
-    <div class="persona-container">
-      <!-- Hardcore Fan -->
-      <div class="persona-card">
-        <div class="persona-header">
-          <div class="persona-image">
-            <img src="Images/Stickland.jpeg" alt="The Hardcore Fan" />
-          </div>
-          <div class="persona-title">
-            <h4>The Hardcore Fan</h4>
-            <div class="persona-details">
-              <span class="detail-item">30 y.o</span>
-              <span class="detail-item">Single</span>
-              <span class="detail-item">Male</span>
-            </div>
-          </div>
+    <!-- Cover -->
+    <div class="project-cover">
+      <img
+        class="cover-image"
+        src="images/KOMMACoverMockup.png"
+        alt="KOMMACover"
+      />
+      <div class="cover-text">
+        <h1>KOMMA</h1>
+        <div>
+          <h4>Overview</h4>
+          <p>Role</p>
         </div>
-
-        <div class="persona-content">
-          <div class="knowledge-level">
-            <span class="knowledge-label">MMA Knowledge</span>
-            <div class="knowledge-bar">
-              <div class="knowledge-fill high"></div>
-            </div>
-            <span class="knowledge-text">High</span>
-          </div>
-
-          <div class="pain-points">
-            <h5>Pain Points</h5>
-            <ul class="pain-list">
-              <li><span class="pain-icon">⚡</span>Limited event pool</li>
-              <li><span class="pain-icon">🔄</span>Infrequent Updates</li>
-              <li><span class="pain-icon">😴</span>Current Boring Gameplay</li>
-              <li>
-                <span class="pain-icon">📊</span>Limited Competition Formats
-              </li>
-            </ul>
-          </div>
+        <div>
+          <h4>Duration</h4>
+          <p>January 2023 - Present</p>
         </div>
-      </div>
-
-      <!-- Casual Fan -->
-      <div class="persona-card">
-        <div class="persona-header">
-          <div class="persona-image">
-            <img src="Images/Guyatbar.jpeg" alt="The Casual Fan" />
-          </div>
-          <div class="persona-title">
-            <h4>The Casual Fan</h4>
-            <div class="persona-details">
-              <span class="detail-item">27 y.o</span>
-              <span class="detail-item">Single</span>
-              <span class="detail-item">Male</span>
-            </div>
-          </div>
+        <div>
+          <h4>Role</h4>
+          <p>Solo Started Project</p>
         </div>
-
-        <div class="persona-content">
-          <div class="knowledge-level">
-            <span class="knowledge-label">MMA Knowledge</span>
-            <div class="knowledge-bar">
-              <div class="knowledge-fill medium"></div>
-            </div>
-            <span class="knowledge-text">Low to Medium</span>
-          </div>
-
-          <div class="pain-points">
-            <h5>Pain Points</h5>
-            <ul class="pain-list">
-              <li><span class="pain-icon">⏰</span>Time Commitment</li>
-              <li><span class="pain-icon">📚</span>Access to Information</li>
-              <li>
-                <span class="pain-icon">❓</span>Confusing scoring formats
-              </li>
-              <li>
-                <span class="pain-icon">🎯</span>Limited Knowledge/Motivation
-              </li>
-            </ul>
-          </div>
+        <div>
+          <h4>Tools</h4>
+          <p>Figma</p>
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- Enhanced Draft Options Section -->
-  <div class="vertsection">
-    <p>Design Process</p>
-    <h3>I came up with several options</h3>
+    <!-- TEMPLATE 2: PROJECT CONTEXT/ABOUT SECTION -->
+    <div class="cs-horizontal">
+      <div class="horizontal-text">
+        <p>MIXED-MARTIAL ARTS FANS NEED A BETTER COMMUNITY</p>
+        <h3>
+          UFC fans want to play fantasy sports to showcase their knowledge of
+          fighters while competing with their friends. It adds excitement,
+          personal stakes, and monetary value in some cases.
+        </h3>
+      </div>
+      <img
+        class="proj-image"
+        src="images/KOMMATestimonials.png"
+        alt="KOMMA Testimonials"
+      />
+    </div>
 
-    <div class="draft-options-container">
-      <!-- Every Card Option -->
-      <div class="draft-option-card">
-        <div class="option-header">
-          <div class="option-icon">📝</div>
-          <h4>New Draft Every Card</h4>
+    <!-- TEMPLATE 13: SIMPLE TITLE-TEXT-IMAGE SECTION -->
+    <div class="vertsection">
+      <p>USER INTERVIEWS</p>
+      <h3>What do the fans think?</h3>
+      <p class="description">
+        I conducted 5 personal user interviews with MMA and other sports fans
+        between the ages of 18-30 to find out what they were lacking in the UFC
+        fan community. Here's what I found:
+      </p>
+      <img
+        class="Prototype"
+        src="images/KOMMATestimonials.png"
+        alt="Descriptive alt text for your image"
+      />
+    </div>
+
+    <!-- Enhanced Understanding the Fans Section -->
+    <div class="vertsection">
+      <p>Gameplay</p>
+      <h3>Understanding the fans</h3>
+
+      <div class="persona-container">
+        <!-- Hardcore Fan -->
+        <div class="persona-card">
+          <div class="persona-header">
+            <div class="persona-image">
+              <img src="images/Stickland.jpeg" alt="The Hardcore Fan" />
+            </div>
+            <div class="persona-title">
+              <h4>The Hardcore Fan</h4>
+              <div class="persona-details">
+                <span class="detail-item">30 y.o</span>
+                <span class="detail-item">Single</span>
+                <span class="detail-item">Male</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="persona-content">
+            <div class="knowledge-level">
+              <span class="knowledge-label">MMA Knowledge</span>
+              <div class="knowledge-bar">
+                <div class="knowledge-fill high"></div>
+              </div>
+              <span class="knowledge-text">High</span>
+            </div>
+
+            <div class="pain-points">
+              <h5>Pain Points</h5>
+              <ul class="pain-list">
+                <li><span class="pain-icon">⚡</span>Limited event pool</li>
+                <li><span class="pain-icon">🔄</span>Infrequent Updates</li>
+                <li>
+                  <span class="pain-icon">😴</span>Current Boring Gameplay
+                </li>
+                <li>
+                  <span class="pain-icon">📊</span>Limited Competition Formats
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <p class="option-description">
-          Users pick a new team for every card they wish to play
+
+        <!-- Casual Fan -->
+        <div class="persona-card">
+          <div class="persona-header">
+            <div class="persona-image">
+              <img src="images/Guyatbar.jpeg" alt="The Casual Fan" />
+            </div>
+            <div class="persona-title">
+              <h4>The Casual Fan</h4>
+              <div class="persona-details">
+                <span class="detail-item">27 y.o</span>
+                <span class="detail-item">Single</span>
+                <span class="detail-item">Male</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="persona-content">
+            <div class="knowledge-level">
+              <span class="knowledge-label">MMA Knowledge</span>
+              <div class="knowledge-bar">
+                <div class="knowledge-fill medium"></div>
+              </div>
+              <span class="knowledge-text">Low to Medium</span>
+            </div>
+
+            <div class="pain-points">
+              <h5>Pain Points</h5>
+              <ul class="pain-list">
+                <li><span class="pain-icon">⏰</span>Time Commitment</li>
+                <li><span class="pain-icon">📚</span>Access to Information</li>
+                <li>
+                  <span class="pain-icon">❓</span>Confusing scoring formats
+                </li>
+                <li>
+                  <span class="pain-icon">🎯</span>Limited Knowledge/Motivation
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Enhanced Draft Options Section -->
+    <div class="vertsection">
+      <p>Design Process</p>
+      <h3>I came up with several options</h3>
+
+      <div class="draft-options-container">
+        <!-- Every Card Option -->
+        <div class="draft-option-card">
+          <div class="option-header">
+            <div class="option-icon">📝</div>
+            <h4>New Draft Every Card</h4>
+          </div>
+          <p class="option-description">
+            Users pick a new team for every card they wish to play
+          </p>
+          <div class="option-metrics">
+            <div class="metric">
+              <span class="metric-label">Frequency</span>
+              <div class="metric-indicator high-frequency">High</div>
+            </div>
+            <div class="metric">
+              <span class="metric-label">Engagement</span>
+              <div class="metric-indicator high-engagement">High</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Every PPV Option -->
+        <div class="draft-option-card recommended">
+          <div class="recommended-badge">Recommended</div>
+          <div class="option-header">
+            <div class="option-icon">💰</div>
+            <h4>New Draft Every Pay-Per-View</h4>
+          </div>
+          <p class="option-description">
+            Users pick a new team between each PPV
+          </p>
+          <div class="option-metrics">
+            <div class="metric">
+              <span class="metric-label">Frequency</span>
+              <div class="metric-indicator medium-frequency">Medium</div>
+            </div>
+            <div class="metric">
+              <span class="metric-label">Engagement</span>
+              <div class="metric-indicator high-engagement">High</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Every Year Option -->
+        <div class="draft-option-card">
+          <div class="option-header">
+            <div class="option-icon">📅</div>
+            <h4>New Draft Every Year</h4>
+          </div>
+          <p class="option-description">
+            Users pick a new team every calendar year
+          </p>
+          <div class="option-metrics">
+            <div class="metric">
+              <span class="metric-label">Frequency</span>
+              <div class="metric-indicator low-frequency">Low</div>
+            </div>
+            <div class="metric">
+              <span class="metric-label">Engagement</span>
+              <div class="metric-indicator medium-engagement">Medium</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Analysis Section -->
+      <div class="analysis-section">
+        <h3>Draft Analysis</h3>
+        <p>
+          To decide what was the best option, I measured all the options on the
+          following metrics that reflected both the ease of play for users as
+          well as their projected enjoyment of the game:
         </p>
-        <div class="option-metrics">
-          <div class="metric">
-            <span class="metric-label">Frequency</span>
-            <div class="metric-indicator high-frequency">High</div>
-          </div>
-          <div class="metric">
-            <span class="metric-label">Engagement</span>
-            <div class="metric-indicator high-engagement">High</div>
-          </div>
-        </div>
-      </div>
 
-      <!-- Every PPV Option -->
-      <div class="draft-option-card recommended">
-        <div class="recommended-badge">Recommended</div>
-        <div class="option-header">
-          <div class="option-icon">💰</div>
-          <h4>New Draft Every Pay-Per-View</h4>
-        </div>
-        <p class="option-description">Users pick a new team between each PPV</p>
-        <div class="option-metrics">
-          <div class="metric">
-            <span class="metric-label">Frequency</span>
-            <div class="metric-indicator medium-frequency">Medium</div>
+        <div class="analysis-table">
+          <div class="table-header">
+            <div class="header-cell">Option</div>
+            <div class="header-cell">Draft Frequency</div>
+            <div class="header-cell">Maintenance</div>
+            <div class="header-cell">Engagement</div>
           </div>
-          <div class="metric">
-            <span class="metric-label">Engagement</span>
-            <div class="metric-indicator high-engagement">High</div>
-          </div>
-        </div>
-      </div>
 
-      <!-- Every Year Option -->
-      <div class="draft-option-card">
-        <div class="option-header">
-          <div class="option-icon">📅</div>
-          <h4>New Draft Every Year</h4>
-        </div>
-        <p class="option-description">
-          Users pick a new team every calendar year
-        </p>
-        <div class="option-metrics">
-          <div class="metric">
-            <span class="metric-label">Frequency</span>
-            <div class="metric-indicator low-frequency">Low</div>
+          <div class="table-row">
+            <div class="row-cell option-name">
+              <span class="option-icon-small">📝</span>
+              Every Card
+            </div>
+            <div class="row-cell">
+              <div class="score-indicator red">High Maintenance</div>
+            </div>
+            <div class="row-cell">
+              <div class="score-indicator red">Very High</div>
+            </div>
+            <div class="row-cell">
+              <div class="score-indicator green">High</div>
+            </div>
           </div>
-          <div class="metric">
-            <span class="metric-label">Engagement</span>
-            <div class="metric-indicator medium-engagement">Medium</div>
+
+          <div class="table-row highlighted">
+            <div class="row-cell option-name">
+              <span class="option-icon-small">💰</span>
+              Every PPV
+            </div>
+            <div class="row-cell">
+              <div class="score-indicator yellow">Medium Maintenance</div>
+            </div>
+            <div class="row-cell">
+              <div class="score-indicator yellow">Moderate</div>
+            </div>
+            <div class="row-cell">
+              <div class="score-indicator green">High</div>
+            </div>
+          </div>
+
+          <div class="table-row">
+            <div class="row-cell option-name">
+              <span class="option-icon-small">📅</span>
+              Every Year
+            </div>
+            <div class="row-cell">
+              <div class="score-indicator green">Low Maintenance</div>
+            </div>
+            <div class="row-cell">
+              <div class="score-indicator green">Low</div>
+            </div>
+            <div class="row-cell">
+              <div class="score-indicator yellow">Medium</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="analysis-conclusion">
+          <div class="conclusion-card">
+            <h5>💡 Key Insight</h5>
+            <p>
+              The PPV model strikes the perfect balance between engagement and
+              usability, offering regular interaction without overwhelming
+              casual users.
+            </p>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- Analysis Section -->
-    <div class="analysis-section">
-      <h3>Draft Analysis</h3>
+    <!-- Scoring System Section -->
+    <div class="vertsection">
+      <p>Scoring System</p>
+      <h3>I had to test and improve my scoring system</h3>
       <p>
-        To decide what was the best option, I measured all the options on the
-        following metrics that reflected both the ease of play for users as well
-        as their projected enjoyment of the game:
+        After taking some of the feedback from my friends and calculating a
+        couple stats, I was able to come up with an initial scoring system.
+        However, I wanted to make it as accurate as possible, so I ran the
+        numbers with some existing UFC PPVs and made some scoring accordingly.
+        The data is shown below.
+      </p>
+      <img
+        class="Prototype"
+        src="images/ScoringSystem.png"
+        alt="KOMMA Scoring System Data"
+      />
+    </div>
+
+    <!-- Enhanced Solutions Section -->
+    <div class="vertsection">
+      <p>SOLUTIONS</p>
+      <h3>Mobile app design focused on ease of use and social engagement</h3>
+
+      <!-- App Preview -->
+      <div class="app-preview-container">
+        <div class="preview-content">
+          <div class="preview-text">
+            <h4>Intuitive Mobile Experience</h4>
+            <p>
+              Designed with both hardcore and casual fans in mind, the app
+              prioritizes simplicity without sacrificing depth. Clean interfaces
+              guide users through league creation, drafting, and ongoing
+              management.
+            </p>
+            <div class="preview-highlights">
+              <div class="highlight-item">
+                <span class="highlight-icon">⚡</span>
+                <span>Quick league setup</span>
+              </div>
+              <div class="highlight-item">
+                <span class="highlight-icon">👥</span>
+                <span>Social-first design</span>
+              </div>
+              <div class="highlight-item">
+                <span class="highlight-icon">📱</span>
+                <span>Mobile-optimized</span>
+              </div>
+            </div>
+          </div>
+          <div class="preview-mockup">
+            <img
+              class="app-mockup"
+              src="images/KOMMATest.png"
+              alt="KOMMA App Screens"
+            />
+            <div class="mockup-overlay">
+              <div class="screen-labels">
+                <div class="screen-label" style="top: 20%; left: 15%">
+                  <div class="label-dot"></div>
+                  <span>League Creation</span>
+                </div>
+                <div class="screen-label" style="top: 20%; left: 40%">
+                  <div class="label-dot"></div>
+                  <span>Team Management</span>
+                </div>
+                <div class="screen-label" style="top: 20%; left: 65%">
+                  <div class="label-dot"></div>
+                  <span>Live Scoring</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Feature Breakdown -->
+      <div class="features-grid">
+        <div class="feature-card primary">
+          <div class="feature-number">1</div>
+          <div class="feature-content">
+            <h5>League Creation</h5>
+            <p>
+              Creators can choose a league name, size, and league type with an
+              intuitive setup flow that takes less than 2 minutes.
+            </p>
+            <div class="feature-tags">
+              <span class="tag">Quick Setup</span>
+              <span class="tag">Customizable</span>
+            </div>
+          </div>
+          <div class="feature-icon">🏆</div>
+        </div>
+
+        <div class="feature-card secondary">
+          <div class="feature-number">2</div>
+          <div class="feature-content">
+            <h5>Intuitive Navigation</h5>
+            <p>
+              Users are brought to a centralized league page where they can
+              manage teams, invite friends, and track progress all in one place.
+            </p>
+            <div class="feature-tags">
+              <span class="tag">Centralized</span>
+              <span class="tag">User-Friendly</span>
+            </div>
+          </div>
+          <div class="feature-icon">🧭</div>
+        </div>
+
+        <div class="feature-card accent">
+          <div class="feature-number">3</div>
+          <div class="feature-content">
+            <h5>Smart Draft Interface</h5>
+            <p>
+              Streamlined drafting with fighter stats, AI recommendations, and
+              real-time updates to help both casual and hardcore fans make
+              informed picks.
+            </p>
+            <div class="feature-tags">
+              <span class="tag">AI-Powered</span>
+              <span class="tag">Real-time</span>
+            </div>
+          </div>
+          <div class="feature-icon">🎯</div>
+        </div>
+
+        <div class="feature-card quaternary">
+          <div class="feature-number">4</div>
+          <div class="feature-content">
+            <h5>Social Engagement</h5>
+            <p>
+              Multiple invitation methods including shareable links and in-app
+              invites, plus live chat and league leaderboards to keep
+              competition fun.
+            </p>
+            <div class="feature-tags">
+              <span class="tag">Social</span>
+              <span class="tag">Competitive</span>
+            </div>
+          </div>
+          <div class="feature-icon">💬</div>
+        </div>
+      </div>
+
+      <!-- Key Innovations -->
+      <div class="innovations-section">
+        <h4>Key Design Innovations</h4>
+        <div class="innovations-grid">
+          <div class="innovation-item">
+            <div class="innovation-header">
+              <span class="innovation-icon">🤖</span>
+              <h6>AI-Assisted Drafting</h6>
+            </div>
+            <p>
+              Smart recommendations help casual fans compete with experts by
+              suggesting fighters based on performance data and fighting styles.
+            </p>
+          </div>
+
+          <div class="innovation-item">
+            <div class="innovation-header">
+              <span class="innovation-icon">⚡</span>
+              <h6>Real-Time Scoring</h6>
+            </div>
+            <p>
+              Live updates during fights keep users engaged throughout events,
+              with push notifications for major scoring moments.
+            </p>
+          </div>
+
+          <div class="innovation-item">
+            <div class="innovation-header">
+              <span class="innovation-icon">🎮</span>
+              <h6>Gamified Experience</h6>
+            </div>
+            <p>
+              Achievement badges, streak tracking, and seasonal rewards create
+              long-term engagement beyond individual fight cards.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Design Principles -->
+      <div class="principles-section">
+        <h4>Design Principles</h4>
+        <div class="principles-container">
+          <div class="principle-card">
+            <div class="principle-icon">🎯</div>
+            <h6>Simplicity First</h6>
+            <p>
+              Every interaction should be intuitive, even for first-time fantasy
+              sports players
+            </p>
+          </div>
+
+          <div class="principle-card">
+            <div class="principle-icon">👥</div>
+            <h6>Social by Design</h6>
+            <p>
+              Features that bring friends together and create shared experiences
+              around MMA
+            </p>
+          </div>
+
+          <div class="principle-card">
+            <div class="principle-icon">⚖️</div>
+            <h6>Balanced Engagement</h6>
+            <p>
+              Engaging for hardcore fans while remaining accessible to casual
+              viewers
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Testing and Retesting Section -->
+    <div class="vertsection">
+      <p>Project Takeaways</p>
+      <h3>📊 Testing and Retesting</h3>
+      <p>
+        When coming up with the initial scoring system, there were many flaws.
+        Only by important constant testing and retesting was I able to get a
+        framework I was happy with. I think that the old "trial and error"
+        method that has been looked down upon at times is actually quite
+        valuable in this instance.
       </p>
 
-      <div class="analysis-table">
-        <div class="table-header">
-          <div class="header-cell">Option</div>
-          <div class="header-cell">Draft Frequency</div>
-          <div class="header-cell">Maintenance</div>
-          <div class="header-cell">Engagement</div>
-        </div>
-
-        <div class="table-row">
-          <div class="row-cell option-name">
-            <span class="option-icon-small">📝</span>
-            Every Card
-          </div>
-          <div class="row-cell">
-            <div class="score-indicator red">High Maintenance</div>
-          </div>
-          <div class="row-cell">
-            <div class="score-indicator red">Very High</div>
-          </div>
-          <div class="row-cell">
-            <div class="score-indicator green">High</div>
-          </div>
-        </div>
-
-        <div class="table-row highlighted">
-          <div class="row-cell option-name">
-            <span class="option-icon-small">💰</span>
-            Every PPV
-          </div>
-          <div class="row-cell">
-            <div class="score-indicator yellow">Medium Maintenance</div>
-          </div>
-          <div class="row-cell">
-            <div class="score-indicator yellow">Moderate</div>
-          </div>
-          <div class="row-cell">
-            <div class="score-indicator green">High</div>
-          </div>
-        </div>
-
-        <div class="table-row">
-          <div class="row-cell option-name">
-            <span class="option-icon-small">📅</span>
-            Every Year
-          </div>
-          <div class="row-cell">
-            <div class="score-indicator green">Low Maintenance</div>
-          </div>
-          <div class="row-cell">
-            <div class="score-indicator green">Low</div>
-          </div>
-          <div class="row-cell">
-            <div class="score-indicator yellow">Medium</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="analysis-conclusion">
-        <div class="conclusion-card">
-          <h5>💡 Key Insight</h5>
-          <p>
-            The PPV model strikes the perfect balance between engagement and
-            usability, offering regular interaction without overwhelming casual
-            users.
-          </p>
-        </div>
-      </div>
+      <h3>👥 There are never too many users to speak to</h3>
+      <p>
+        I found that every interview that I did, I was able to gain new
+        insights. At some point, I stopped considering every session an
+        "interview" and treated them more as conversations about a topic that
+        we're both passionate about.
+      </p>
     </div>
-  </div>
 
-  <!-- Scoring System Section -->
-  <div class="vertsection">
-    <p>Scoring System</p>
-    <h3>I had to test and improve my scoring system</h3>
-    <p>
-      After taking some of the feedback from my friends and calculating a couple
-      stats, I was able to come up with an initial scoring system. However, I
-      wanted to make it as accurate as possible, so I ran the numbers with some
-      existing UFC PPVs and made some scoring accordingly. The data is shown
-      below.
-    </p>
-    <img
-      class="Prototype"
-      src="Images/ScoringSystem.png"
-      alt="KOMMA Scoring System Data"
-    />
-  </div>
-
-  <!-- Enhanced Solutions Section -->
-  <div class="vertsection">
-    <p>SOLUTIONS</p>
-    <h3>Mobile app design focused on ease of use and social engagement</h3>
-
-    <!-- App Preview -->
-    <div class="app-preview-container">
-      <div class="preview-content">
-        <div class="preview-text">
-          <h4>Intuitive Mobile Experience</h4>
-          <p>
-            Designed with both hardcore and casual fans in mind, the app
-            prioritizes simplicity without sacrificing depth. Clean interfaces
-            guide users through league creation, drafting, and ongoing
-            management.
-          </p>
-          <div class="preview-highlights">
-            <div class="highlight-item">
-              <span class="highlight-icon">⚡</span>
-              <span>Quick league setup</span>
-            </div>
-            <div class="highlight-item">
-              <span class="highlight-icon">👥</span>
-              <span>Social-first design</span>
-            </div>
-            <div class="highlight-item">
-              <span class="highlight-icon">📱</span>
-              <span>Mobile-optimized</span>
-            </div>
-          </div>
-        </div>
-        <div class="preview-mockup">
+    <!-- Other Case Studies -->
+    <div class="other-case-studies">
+      <p>Other Case Studies</p>
+      <div class="case-studies-list">
+        <a href="Prommuni.html">
           <img
-            class="app-mockup"
-            src="Images/KOMMATest.png"
-            alt="KOMMA App Screens"
+            class="case-studies-images"
+            src="images/PrommuniCoverMockup.png"
+            alt="PrommuniCover"
           />
-          <div class="mockup-overlay">
-            <div class="screen-labels">
-              <div class="screen-label" style="top: 20%; left: 15%">
-                <div class="label-dot"></div>
-                <span>League Creation</span>
-              </div>
-              <div class="screen-label" style="top: 20%; left: 40%">
-                <div class="label-dot"></div>
-                <span>Team Management</span>
-              </div>
-              <div class="screen-label" style="top: 20%; left: 65%">
-                <div class="label-dot"></div>
-                <span>Live Scoring</span>
-              </div>
-            </div>
-          </div>
-        </div>
+        </a>
+        <a href="ATT.html">
+          <img
+            class="case-studies-images"
+            src="images/ATTCoverMockup.png"
+            alt="ATTCover"
+          />
+        </a>
+        <a href="SellMax.html">
+          <img
+            class="case-studies-images"
+            src="images/SellMaxCoverMockup.png"
+            alt="SellMax"
+          />
+        </a>
       </div>
     </div>
 
-    <!-- Feature Breakdown -->
-    <div class="features-grid">
-      <div class="feature-card primary">
-        <div class="feature-number">1</div>
-        <div class="feature-content">
-          <h5>League Creation</h5>
-          <p>
-            Creators can choose a league name, size, and league type with an
-            intuitive setup flow that takes less than 2 minutes.
-          </p>
-          <div class="feature-tags">
-            <span class="tag">Quick Setup</span>
-            <span class="tag">Customizable</span>
-          </div>
-        </div>
-        <div class="feature-icon">🏆</div>
+    <!-- Contact -->
+    <div class="contact-section">
+      <div id="contact-text">
+        <h1>Contact Me</h1>
+        <p>
+          Got a project, idea, or just want to say hello? Drop me a message
+          below!
+        </p>
       </div>
 
-      <div class="feature-card secondary">
-        <div class="feature-number">2</div>
-        <div class="feature-content">
-          <h5>Intuitive Navigation</h5>
-          <p>
-            Users are brought to a centralized league page where they can manage
-            teams, invite friends, and track progress all in one place.
-          </p>
-          <div class="feature-tags">
-            <span class="tag">Centralized</span>
-            <span class="tag">User-Friendly</span>
+      <form action="https://formspree.io/f/your-form-id" method="POST">
+        <div id="name-email">
+          <div class="form-element">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
           </div>
-        </div>
-        <div class="feature-icon">🧭</div>
-      </div>
 
-      <div class="feature-card accent">
-        <div class="feature-number">3</div>
-        <div class="feature-content">
-          <h5>Smart Draft Interface</h5>
-          <p>
-            Streamlined drafting with fighter stats, AI recommendations, and
-            real-time updates to help both casual and hardcore fans make
-            informed picks.
-          </p>
-          <div class="feature-tags">
-            <span class="tag">AI-Powered</span>
-            <span class="tag">Real-time</span>
+          <div class="form-element">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="_replyto" required />
           </div>
-        </div>
-        <div class="feature-icon">🎯</div>
-      </div>
-
-      <div class="feature-card quaternary">
-        <div class="feature-number">4</div>
-        <div class="feature-content">
-          <h5>Social Engagement</h5>
-          <p>
-            Multiple invitation methods including shareable links and in-app
-            invites, plus live chat and league leaderboards to keep competition
-            fun.
-          </p>
-          <div class="feature-tags">
-            <span class="tag">Social</span>
-            <span class="tag">Competitive</span>
-          </div>
-        </div>
-        <div class="feature-icon">💬</div>
-      </div>
-    </div>
-
-    <!-- Key Innovations -->
-    <div class="innovations-section">
-      <h4>Key Design Innovations</h4>
-      <div class="innovations-grid">
-        <div class="innovation-item">
-          <div class="innovation-header">
-            <span class="innovation-icon">🤖</span>
-            <h6>AI-Assisted Drafting</h6>
-          </div>
-          <p>
-            Smart recommendations help casual fans compete with experts by
-            suggesting fighters based on performance data and fighting styles.
-          </p>
-        </div>
-
-        <div class="innovation-item">
-          <div class="innovation-header">
-            <span class="innovation-icon">⚡</span>
-            <h6>Real-Time Scoring</h6>
-          </div>
-          <p>
-            Live updates during fights keep users engaged throughout events,
-            with push notifications for major scoring moments.
-          </p>
-        </div>
-
-        <div class="innovation-item">
-          <div class="innovation-header">
-            <span class="innovation-icon">🎮</span>
-            <h6>Gamified Experience</h6>
-          </div>
-          <p>
-            Achievement badges, streak tracking, and seasonal rewards create
-            long-term engagement beyond individual fight cards.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Design Principles -->
-    <div class="principles-section">
-      <h4>Design Principles</h4>
-      <div class="principles-container">
-        <div class="principle-card">
-          <div class="principle-icon">🎯</div>
-          <h6>Simplicity First</h6>
-          <p>
-            Every interaction should be intuitive, even for first-time fantasy
-            sports players
-          </p>
-        </div>
-
-        <div class="principle-card">
-          <div class="principle-icon">👥</div>
-          <h6>Social by Design</h6>
-          <p>
-            Features that bring friends together and create shared experiences
-            around MMA
-          </p>
-        </div>
-
-        <div class="principle-card">
-          <div class="principle-icon">⚖️</div>
-          <h6>Balanced Engagement</h6>
-          <p>
-            Engaging for hardcore fans while remaining accessible to casual
-            viewers
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Testing and Retesting Section -->
-  <div class="vertsection">
-    <p>Project Takeaways</p>
-    <h3>📊 Testing and Retesting</h3>
-    <p>
-      When coming up with the initial scoring system, there were many flaws.
-      Only by important constant testing and retesting was I able to get a
-      framework I was happy with. I think that the old "trial and error" method
-      that has been looked down upon at times is actually quite valuable in this
-      instance.
-    </p>
-
-    <h3>👥 There are never too many users to speak to</h3>
-    <p>
-      I found that every interview that I did, I was able to gain new insights.
-      At some point, I stopped considering every session an "interview" and
-      treated them more as conversations about a topic that we're both
-      passionate about.
-    </p>
-  </div>
-
-  <!-- Other Case Studies -->
-  <div class="other-case-studies">
-    <p>Other Case Studies</p>
-    <div class="case-studies-list">
-      <a href="Prommuni.html">
-        <img
-          class="case-studies-images"
-          src="images/PrommuniCoverMockup.png"
-          alt="PrommuniCover"
-        />
-      </a>
-      <a href="ATT.html">
-        <img
-          class="case-studies-images"
-          src="images/ATTCoverMockup.png"
-          alt="ATTCover"
-        />
-      </a>
-      <a href="SellMax.html">
-        <img
-          class="case-studies-images"
-          src="images/SellMaxCoverMockup.png"
-          alt="SellMax"
-        />
-      </a>
-    </div>
-  </div>
-
-  <!-- Contact -->
-  <div class="contact-section">
-    <div id="contact-text">
-      <h1>Contact Me</h1>
-      <p>
-        Got a project, idea, or just want to say hello? Drop me a message below!
-      </p>
-    </div>
-
-    <form action="https://formspree.io/f/your-form-id" method="POST">
-      <div id="name-email">
-        <div class="form-element">
-          <label for="name">Name</label>
-          <input type="text" id="name" name="name" required />
         </div>
 
         <div class="form-element">
-          <label for="email">Email</label>
-          <input type="email" id="email" name="_replyto" required />
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" required></textarea>
         </div>
-      </div>
 
-      <div class="form-element">
-        <label for="message">Message</label>
-        <textarea id="message" name="message" rows="6" required></textarea>
-      </div>
-
-      <button type="submit">Send Message</button>
-    </form>
-  </div>
-
-  <!-- Footer -->
-  <footer>
-    <div id="ft-btn-section">
-      <a class="ft-btn" href="https://www.linkedin.com/in/ruitaocchen/">
-        <p>Linkedin</p>
-        <img
-          id="Up-Right-Arrow"
-          src="Images/BsFillArrowUpRightCircleFill.svg"
-          alt="DownArrow"
-        />
-      </a>
-      <a class="ft-btn" href="resume.html">
-        <p>Resume</p>
-        <img
-          id="Up-Right-Arrow"
-          src="Images/BsFillArrowUpRightCircleFill.svg"
-          alt="DownArrow"
-        />
-      </a>
+        <button type="submit">Send Message</button>
+      </form>
     </div>
-    <div id="ft-txt-section">
-      <h3>Copyright 2024 Ruitao Chen. All Rights Reserved.</h3>
-      <p>
-        Can you solve a Rubik's Cube faster than me? Name all the US Presidents
-        in order? Juggle?
-      </p>
-    </div>
-  </footer>
-</body>
+
+    <!-- Footer -->
+    <footer>
+      <div id="ft-btn-section">
+        <a class="ft-btn" href="https://www.linkedin.com/in/ruitaocchen/">
+          <p>Linkedin</p>
+          <img
+            id="Up-Right-Arrow"
+            src="images/BsFillArrowUpRightCircleFill.svg"
+            alt="DownArrow"
+          />
+        </a>
+        <a class="ft-btn" href="resume.html">
+          <p>Resume</p>
+          <img
+            id="Up-Right-Arrow"
+            src="images/BsFillArrowUpRightCircleFill.svg"
+            alt="DownArrow"
+          />
+        </a>
+      </div>
+      <div id="ft-txt-section">
+        <h3>Copyright 2024 Ruitao Chen. All Rights Reserved.</h3>
+        <p>
+          Can you solve a Rubik's Cube faster than me? Name all the US
+          Presidents in order? Juggle?
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
